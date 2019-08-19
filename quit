@@ -1,0 +1,6 @@
+Help on function fatorial in module __main__:
+
+ffaattoorriiaall(n, shuw=False)
+    -> Fatorial .
+     Parametro n = O número a ser calculado
+     Parametro shuw = Verifica se vai mostrar o calculo inteiro
