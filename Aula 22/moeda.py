@@ -1,0 +1,18 @@
+def metade(preco = 0):
+    res = preco/2
+    return res
+
+def dobro(preco = 0):
+    res = preco*2
+    return res
+
+def aumento(preco = 0, taxa = 0 ):
+    res = preco + (preco * taxa/100)
+    return res
+
+def diminue(preco = 0, taxa = 0 ):
+    res = preco - (preco * taxa/100)
+    return res
+
+def moedaf(preco = 0, moeda = 'R$'):
+    return f'{moeda} {preco:>8.2f}'.replace('.', ',')

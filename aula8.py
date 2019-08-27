@@ -1110,7 +1110,7 @@ if menu == '70':
     continua = ''
     barato = ''
     produto = ''
-    preco = 0
+    p = 0
     precoB = 9999
     caro=0
     total = 0
@@ -1121,7 +1121,7 @@ if menu == '70':
         print('-' * 30)
 
         produto = input('\n Produto:')
-        preco=int(input('Preço:'))
+        p=int(input('Preço:'))
 
         while True:  # ______________________________________ valida continua
             continua = input('Quer continuar? (s/n)').upper()
@@ -1135,14 +1135,14 @@ if menu == '70':
             else:
                 print('Valor errado S ou N \n')
 
-        if preco < precoB:
-            precoB = preco
+        if p < precoB:
+            precoB = p
             barato = produto
 
-        if preco > 1000:
+        if p > 1000:
             caro +=1
 
-        total = total + preco # _________________________total
+        total = total + p # _________________________total
 
         if continua == 'N': # __________________________ Saiu do laço
             break
