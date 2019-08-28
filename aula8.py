@@ -64,8 +64,8 @@ if menu == '17':
     b = b * b
     c = a + b
 
-    print(' a={}\n b={}\n {}+{}\n c={}'.format(a, b, a, b, c))
-    print(' c= ¬v{}'.format(c))
+    print(' a={}\n b={}\n {}+{}\n c={}'.formato(a, b, a, b, c))
+    print(' c= ¬v{}'.formato(c))
     c = c ** (1 / 2)
 
     print('sultado = ', c)
@@ -81,9 +81,9 @@ if menu == '18':
     cosseno = math.cos(math.radians(angulo))
     tangente = math.tan(math.radians(angulo))
 
-    print('seno: {:.2f}'.format(angulo, seno))
-    print('cosseno: {:.2f}'.format(cosseno))
-    print('tangente: {:.2f}'.format(tangente))
+    print('seno: {:.2f}'.formato(angulo, seno))
+    print('cosseno: {:.2f}'.formato(cosseno))
+    print('tangente: {:.2f}'.formato(tangente))
 
 # _________ sorteio de aluno _____________
 

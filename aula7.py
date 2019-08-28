@@ -49,7 +49,7 @@ while sim in resposta:
         depois = numero + 1
 
         print ()
-        print(' numero anterior :{} \n numero digitado :{} \n numero posterio: {}'.format(antes, numero, depois))
+        print(' numero anterior :{} \n numero digitado :{} \n numero posterio: {}'.formato(antes, numero, depois))
 
 
     #                  06- mostre o dobro ____________________
@@ -71,7 +71,7 @@ while sim in resposta:
         raiz=numero**(1/2)
 
         print ('\n'*2 )
-        print (' O dobro:{} \n O triplo:{} \n A raiz quadrada:{}' .format(dobro, triplo, raiz))
+        print (' O dobro:{} \n O triplo:{} \n A raiz quadrada:{}' .formato(dobro, triplo, raiz))
 
 
     # _______________________  07- Media _________________
@@ -102,7 +102,7 @@ while sim in resposta:
         m=numero*100
         mm=numero*1000
 
-        print (' cm:{} \n mm:{}'. format(m, mm))
+        print (' cm:{} \n mm:{}'. formato(m, mm))
 
 
     # ________________ 09- tabuada _______________________
@@ -118,7 +118,7 @@ while sim in resposta:
         for i in range(11):
 
             tabuada=numero*i
-            print ('{} x {} = {}'. format(numero, i, tabuada))
+            print ('{} x {} = {}'. formato(numero, i, tabuada))
 
 
     # ________________ 010- convertendo em dolares __________
@@ -132,7 +132,7 @@ while sim in resposta:
 
         tolar=numero/3,27
 
-        print ('valor convertido {} $'. format(tolar))
+        print ('valor convertido {} $'. formato(tolar))
 
     # ___________________ 11- pintura _______________________
 
