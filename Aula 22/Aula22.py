@@ -1,5 +1,6 @@
 # Aula 22 como importar e usar modulos caseiros 
 import uteis.moeda
+import uteis.dado
 
-p = float(input('Digite um preço $:')) # p reprecenta preço 
+p = uteis.dado.leiaDinheiro('Digite um valor R$: ')
 print(uteis.moeda.resumo(p, 10, 0))

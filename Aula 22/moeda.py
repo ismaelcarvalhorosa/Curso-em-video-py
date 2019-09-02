@@ -29,3 +29,5 @@ def resumo(preco=0, taxaA=10, taxaR=5):
     print(f'Metade do preço: \t{metade(preco, True)}')
     print(f'Taxa: {taxaA}%, Aumento:\t{aumento(preco, taxaA, True)}')
     print(f'Taxa:{taxaR}% Retução:\t{diminue(preco, taxaR, True)} ')
+    print('-'*40)
+    
