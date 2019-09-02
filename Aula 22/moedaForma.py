@@ -1,3 +1,0 @@
-
-
-#print(moedaf(4))
